@@ -29,7 +29,6 @@ class _FormTileState extends State<FormTile> {
     var deviceSize = MediaQuery.of(context).size;
     var isWide = deviceSize.width > 640;
     return Container(
-      // height: isWide ? deviceSize.height * 0.22 : deviceSize.height * 0.12,
       child: Column(
           mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.start,
