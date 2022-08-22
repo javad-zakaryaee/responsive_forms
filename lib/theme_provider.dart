@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class ThemeProvider extends ChangeNotifier {
   ThemeData appTheme = ThemeData(
-    primarySwatch: Colors.purple,
+    primarySwatch: Colors.deepPurple,
     brightness: Brightness.light,
   );
   bool isDark = false;
